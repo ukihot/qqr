@@ -12,8 +12,6 @@
 #set page(columns: 2)
 // 緒言::Introduction
 #include "chapters/introduction.typ"
-// 先行研究::Previous Research
-#include "chapters/previous_research.typ"
 // 準備::Methodology
 #include "chapters/methodology.typ"
 // 本論::Results
