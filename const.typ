@@ -1,2 +1,2 @@
 #let me="Yu Tokunaga"
-#let title="Assessing Latent Value of Kabaddi in the Niche Sport Market"
+#let title="Proposing a Quantitative Evaluation Method for Behavior in Kabaddi"

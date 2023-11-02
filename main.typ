@@ -8,7 +8,8 @@
 // 要旨::Abstract
 #include "chapters/abstract.typ"
 // 目次::Contents
-#outline()
+#outline(indent: auto)
+#set page(columns: 2)
 // 緒言::Introduction
 #include "chapters/introduction.typ"
 // 先行研究::Previous Research
@@ -22,7 +23,7 @@
 // 結論::Conclusion
 #include "chapters/conclusion.typ"
 // 参考文献::Bibliography
-#include "chapters/bibliography.typ"
+#bibliography("bib.yml")
 // 謝辞::Acknowledgements
 #include "chapters/acknowledgements.typ"
 // 附録::Appendix
