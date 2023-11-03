@@ -23,6 +23,7 @@
 // 参考文献::Bibliography
 #bibliography("bib.yml")
 // 謝辞::Acknowledgements
+#set heading(numbering: none)
 #include "chapters/acknowledgements.typ"
 // 附録::Appendix
-#include "chapters/appendix.typ"
+#include "appendices.typ"
