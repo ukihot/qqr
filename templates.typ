@@ -9,6 +9,12 @@
     #text(1.25em, author)
   ]
   set par(justify: true)
+  show regex("[\\P{latin}&&[[:^ascii:]]][\\p{latin}[[:ascii:]]]|[\\p{latin}[[:ascii:]]][\\P{latin}&&[[:^ascii:]]]") : it => {
+    let a = it.text.match(regex("(.)(.)"))
+    a.captures.at(0)+h(0.25em)+a.captures.at(1)
+  }
+  show "、": "，"
+  show "。": "．"
   body
 }
 
@@ -26,7 +32,7 @@
       else {
         return value + "." + nums.pos().slice(1).map(str).join(".")
       }
-    }  
+    }
   );
   [#body]
 }
